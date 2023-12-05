@@ -1,2 +1,2 @@
-# FastAPI-BE
+# FASTBe
 Learning FAST API

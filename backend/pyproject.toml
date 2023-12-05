@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "FASTAPIBE"
+version = "0.1.0"
+description = "Your project description"
+authors = ["Sudipta Samal <mail2sudipta.samal@gmail.com>"]
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry.dependencies]
+tomli = { version = "^2.0.1", python = ">3.8" } 
+
