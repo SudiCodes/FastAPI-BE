@@ -47,20 +47,6 @@ New-Item -ItemType File -Path .\utils.py
 # Change the current directory to src
 Set-Location ..
 
-# Change the current directory to aws
-Set-Location .\aws
-
-# Create the files under aws
-New-Item -ItemType File -Path .\client.py
-New-Item -ItemType File -Path .\schemas.py
-New-Item -ItemType File -Path .\config.py
-New-Item -ItemType File -Path .\constants.py
-New-Item -ItemType File -Path .\exceptions.py
-New-Item -ItemType File -Path .\utils.py
-
-# Change the current directory to src
-Set-Location ..
-
 # Change the current directory to posts
 Set-Location .\posts
 
